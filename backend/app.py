@@ -28,6 +28,10 @@ TEST_CASES = [
     }
 ]
 
+@app.route('/')
+def index():
+    return jsonify(status = 200)
+
 @app.route('/run', methods=['POST'])
 def run_code():
     try:
