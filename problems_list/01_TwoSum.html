@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Sum - CodeIt</title>
+    <link rel="stylesheet" href="../style.css">
+    <!-- Monaco Editor CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.36.1/min/vs/loader.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <div class="logo">CodeIt</div>
+            <ul class="nav-tabs">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="../problems.html">Problems</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <div class="problem-page">
+        <div class="problem-description">
+            <h1>1. Two Sum</h1>
+            <div class="problem-stats">
+                <span class="difficulty easy">Easy</span>
+            </div>
+            <div class="description-content">
+                <p>Given an array of integers <code>nums</code> and an integer <code>target</code>, return indices of the two numbers such that they add up to <code>target</code>.</p>
+                <p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
+                <p>You can return the answer in any order.</p>
+                
+                <div class="input-format">
+                    <h3>Input Format</h3>
+                    <p>The first line contains two space-separated integers n and target, where n is the size of the array.</p>
+                    <p>The second line contains n space-separated integers - the elements of the array nums.</p>
+                </div>
+
+                <div class="output-format">
+                    <h3>Output Format</h3>
+                    <p>Print two space-separated integers - the indices of the two numbers that add up to target.</p>
+                </div>
+
+                <div class="example">
+                    <h3>Example</h3>
+                    <pre>Input:
+4 9
+2 7 11 15
+
+Output:
+0 1</pre>
+                </div>
+
+                <div class="note">
+                    <h3>Note</h3>
+                    <p>You only need to read the input and print the output.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="code-editor-section">
+            <div class="editor-controls">
+                <select id="language-select">
+                    <option value="javascript">JavaScript</option>
+                    <option value="python">Python</option>
+                    <option value="java">Java</option>
+                    <option value="cpp">C++</option>
+                </select>
+                <button id="run-code">Run</button>
+                <button id="submit-code">Submit</button>
+            </div>
+            <div id="monaco-editor"></div>
+        </div>
+    </div>
+</main>
+
+    <script src="problem-editor.js"></script>
+    <footer class="footer">
+        <p>Made with ❤️ by Chirag, Aashish, Arshia and Prachi</p>
+    </footer>
+</body>
+</html>

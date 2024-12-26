@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Problems</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="nav-container">
+                <div class="logo">CodeIt</div>
+                <ul class="nav-tabs">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="problems.html" class="active">Problems</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 class="problems-title">Problems List</h1>
+        <div class="problems-container">
+            <div class="table-controls">
+                <input 
+                    type="text" 
+                    id="problemSearch" 
+                    placeholder="Search problems..."
+                    class="search-input"
+                >
+            </div>
+            <table id="problems-table">
+                <thead>
+                    <tr>
+                        <th onclick="sortTable(0)">S.No ▼</th>
+                        <th>Problem Name</th>
+                        <th onclick="sortTable(2)">Difficulty ▼</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><a href="problems_list/01_TwoSum.html">Two Sum</a></td>
+                        <td><span class="difficulty easy">Easy</span></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Add Two Numbers</td>
+                        <td><span class="difficulty medium">Medium</span></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Median of Two Sorted Arrays</td>
+                        <td><span class="difficulty hard">Hard</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <script src="table-sort.js"></script>
+        </div>
+        </main>
+        <footer class="footer">
+            <p>Made with ❤️ by Chirag, Aashish, Arshia and Prachi</p>
+        </footer>
+    </body>
+</html>
